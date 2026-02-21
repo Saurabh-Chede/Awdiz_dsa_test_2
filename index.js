@@ -97,6 +97,19 @@ function ReturnIndex(inputArray,target){
 
 console.log(ReturnIndex(inputArray,target))
 
+// 8️⃣ Remove First Element of Array
+
+// Remove first element without using shift().
+
+// Input: [10, 20, 30, 40]
+// Output: [20, 30, 40]
+
+let Inputarr = [10, 20, 30, 40];
+
+firstelement = Inputarr.slice(1);
+
+console.log(firstelement); 
+
 
 // 🔟 Find Sum of Digits of a Number
 
