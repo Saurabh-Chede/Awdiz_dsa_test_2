@@ -118,6 +118,19 @@ console.log(firstelement);
 // Input: 1234
 // Output: 10
 
+// 3. Find First Element Greater Than 10
+let arrone = [3, 7, 12, 5, 20]
+
+function FindElement(arr) {
+    for (let i = 0; i <= arr.length-1; i++) {
+        if (arr[i] > 10) {
+            return(arr[i])
+        }
+    } 
+    return null;
+}
+console.log(FindElement(arrone))
+
 
 
 
