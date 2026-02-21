@@ -23,14 +23,16 @@ else{
 // Input: "Hi", 3
 // Output: "HiHiHi"
 
-function Repeat (num){
-   let string = 'HI'
-   for(let i=0; i<=num; i++){
-    console.log(string)
-   }
+let string = "Hi";
+let num = 3;
+
+let result = "";
+
+for (let i = 0; i < num; i++) {
+    result += string;
 }
 
-Repeat(10)
+console.log(result);
 
 // ----------------------------------------------
 
@@ -87,14 +89,22 @@ function ReturnIndex(inputArray,target){
             return i;
             
         }
-        else{
-            console.log('not found')
-        }
+        
     }
+    return;
 
 }
 
 console.log(ReturnIndex(inputArray,target))
+
+
+// 🔟 Find Sum of Digits of a Number
+
+// Add digits of a number.
+
+// Input: 1234
+// Output: 10
+
 
 
 
